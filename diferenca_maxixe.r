@@ -1,6 +1,8 @@
 #install.packages("WDI")
 library(tidyverse)
-
+#trat 1 = 10% adubo 90% terra
+#trat 3 = 25% adubo 75% terra
+#trat 4 = 50% adubo 50% terra
 dados <- read.csv("dadosexp - placa_maxixe.csv")
 
 summary(dados)
